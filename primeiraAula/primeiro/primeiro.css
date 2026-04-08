@@ -1,0 +1,40 @@
+body{
+    font-family: Arial,sans-serif;
+    margin: 20px;
+}
+
+.container{
+ background-color: #f0f0f0;   
+ padding: 80px;
+ border: 2px solid #ccc;
+}
+
+.caixa{ 
+
+    background-color: lightblue;   
+    padding: 20px;
+    border: 2px solid blue;
+    width: 150px;
+    height: 150px;
+}
+
+.box1{
+
+position: relative;
+z-index: 1;
+
+}
+
+.box2{
+    z-index: 0;
+    position: relative;
+    top: -30px;
+    left: -40px;
+    background-color: lightgreen;
+}
+
+.box3{
+    position: fixed;
+    bottom: 30px;
+    right: 10px;
+}
